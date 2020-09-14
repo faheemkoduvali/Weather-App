@@ -21,7 +21,7 @@ function WeatherCardTop({data}) {
                 <h4>{(data.main.temp).toPrecision(2)}<span>°c</span></h4>
             </div>
             <div className="wc_top_right">
-                <img src={src} placeholder="img"/>
+                <img src={src} placeholder="img" alt = "background"/>
                 <Time off_time={data.timezone}/>
                 <h2>{date}</h2>
             </div>

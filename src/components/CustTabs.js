@@ -7,7 +7,7 @@ function CustTabs({f_data,day}) {
     var index
     const days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
     for(let i=0;i<7;i++)
-        if(days[i].substring(0,3)==day)
+        if(days[i].substring(0,3) === day)
             {index=i
             break}
     var n_style=style
@@ -15,7 +15,7 @@ function CustTabs({f_data,day}) {
     {
         for(let i=0;i<5;i++)
             {
-                if(i==curr)
+                if(i === curr)
                     n_style[i]="block"
                 else
                     n_style[i]="none"
