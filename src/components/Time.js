@@ -10,15 +10,16 @@ function Time({off_time}) {
     //     setTime(d)
     // },[time])
     // }
+    var time_int
     useEffect(() => {
-         setInterval(() => {
+         time_int = setInterval(() => {
             let d = new Date();
             d.setUTCSeconds((-330*60)+off_time+d.getUTCSeconds());
             d=d.toTimeString().split(" ")[0]
             setTime(d)
-        },Time)   
+        })   
         return () => {
-            // clearInterval(time_int)
+            clearInterval(time_int)
         }
       })
     return (<div className="Time">{time}</div>)

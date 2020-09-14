@@ -7,8 +7,8 @@ export const fetchData = async (city) => {
 
     var url,f_url
     if(city) {
-        url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`
-        f_url=`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${api_key}&units=metric`
+        url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}&units=metric`
+        f_url=`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${api_key}&units=metric`
     }
 
 
