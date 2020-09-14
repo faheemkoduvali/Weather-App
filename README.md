@@ -1,3 +1,4 @@
+[![Run on Repl.it](https://repl.it/badge/github/faheemkoduvali/Weather-App)](https://repl.it/github/faheemkoduvali/Weather-App)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
